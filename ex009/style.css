@@ -1,0 +1,13 @@
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 10px;
+}
+
+h1, h2{
+    margin: 20px;
+    background-color: #e7e7e7;
+    padding: 20px;
+    flex-grow: 1;
+}

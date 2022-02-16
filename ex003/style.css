@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    color: #111;
+    margin: 15px;
+}
+
+section{
+    background-color: #111;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+section p {
+    color: #b2b2b2;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+span{
+    color: #febe01;
+}
+
+.but{
+    background-color: #febe01;
+    display: inline-block;
+    padding: 7px;
+    margin-top: 10px;
+    color: #332200;
+    border-radius: 4px;
+    text-decoration: none;
+}

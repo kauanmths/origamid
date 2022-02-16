@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos Gerais*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info{
+    display: grid;
+    grid-column: 2;
+    justify-items: start;
+    grid-template-rows: auto 1fr auto;
+}
+
+.titulo{
+    font-size: 48px;
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+.preco{
+    font-size: 20px;
+    background-color: #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    grid-column: 2;
+    align-self: start;
+}
+
+.descricao {
+    font-size: 20px;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.comprar{
+    background-color: #a8f;
+    color: #103;
+    padding: 10px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    grid-row: 3;
+    grid-column: 2;
+    align-self: start;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.grid{
+    display: grid;
+    margin: 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.foto {
+    grid-column: 1;
+    grid-row: 2;
+}

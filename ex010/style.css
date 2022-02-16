@@ -1,0 +1,11 @@
+div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    gap: 10px;
+}
+
+h1, h2{
+    margin: 20px;
+    background-color: #e7e7e7;
+    padding: 20px;
+}
