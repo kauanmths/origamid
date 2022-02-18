@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::before{
+            content: '';
+            display: block;
+            width: 60px;
+            height: 4px;
+            background-color: aqua;
+        }
+
+        h2:before{
+            content: '';
+            width: 30px;
+            height: 4px;
+            display: inline-block;
+            background-color: #2e7575;
+            margin-right: 5px;
+        }
+
+        ul{
+            list-style: none;
+            font-size: 1.2rem;
+        }
+
+        li::before{
+            content:"";
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            background-image: linear-gradient(to right, aqua, #2e7575);
+            border-radius: 50%;
+            margin-right: 5px;
+        }
+
+        li{
+            display: flex;
+            align-items: center;
+        }
+
+        h3{
+            position: relative;
+            margin-left: 8px;
+        }
+
+        h3::before{
+            position: absolute;
+            content: '';
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: rgba(55, 158, 158, 0.548);
+            left: -8px;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nossos Produtos</h1>
+    <ul>
+        <li>Sobre</li>
+        <li>Produto</li>
+        <li>Contato</li>
+    </ul>
+        <h2>Nossos afiliados</h2>
+        <ul>
+            <li>Kauan Matheus</li>
+            <li>Marcio Nunes</li>
+            <li>Michael Caio</li>
+        </ul>
+        <h3>Pra finalizar...</h3>
+</body>
+</html>
