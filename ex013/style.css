@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #eee;
+    padding: 10px 20px;
+}
+
+p{
+    font-size: 2rem;
+}
+
+
